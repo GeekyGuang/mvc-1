@@ -1,0 +1,14 @@
+#app4 > .circle {
+    border: 1px solid grey;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+}
+
+@keyframes changeColor {
+    0%{background: red;}
+    100%{background: blue;}
+}
+#app4 > .circle.active {
+    animation: changeColor 1s infinite linear alternate;
+}
